@@ -1,0 +1,19 @@
+h1 {
+    color: rgb(84, 29, 100);
+}
+
+.green-text {
+    color:green;
+}
+
+.red-text {
+    color:red;
+}
+
+.logoimage {
+    max-width: 300px;
+}
+
+.superimage {
+    max-width: 150px;
+}
