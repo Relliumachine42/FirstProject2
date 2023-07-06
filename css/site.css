@@ -32,3 +32,12 @@ h1 {
 .smallText {
     font-size: xx-small;
 }
+
+.special-link {
+    text-decoration: none;
+    transition: 5s color;
+}
+
+.special-link:hover {
+    color:red;
+}
