@@ -28,3 +28,7 @@ h1 {
     -webkit-text-stroke-color: yellow;
     text-shadow: 2px 1px #292929;
 }
+
+.smallText {
+    font-size: xx-small;
+}
