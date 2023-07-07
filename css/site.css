@@ -11,6 +11,11 @@ h1 {
 }
 
 .logoimage {
+    width: 300px;
+    height: 25px;
+}
+
+.scaleImage {
     max-width: 300px;
 }
 
@@ -40,4 +45,66 @@ h1 {
 
 .special-link:hover {
     color:red;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex-grow: 1;
+}
+
+.bgImage {
+    background-image: url(/img/pickle2.png);
+    background-size:8cm;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+
+footer {
+    flex-shrink: 0;
+}
+
+.bgImage, .bgImage2, .bgImage3 {
+    backdrop-filter: brightness(.5);    
+}
+
+.bgInlay {
+    backdrop-filter: brightness(.3);
+
+}
+
+#titleText {
+    font-family:'Creepster', cursive;
+    font-size: 6em;
+    margin: 0;
+    text-transform: uppercase;
+    /* color: rgb(255, 0, 0); */
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 204, 255);
+    text-shadow: 6px 3px #292929;
+}
+
+.bgImage2 {
+    background-image: url(/img/pickle3.png);
+    background-size:8cm;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+
+.bgImage3 {
+    background-image: url(/img/pickle4.png);
+    background-size:8cm;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
 }
