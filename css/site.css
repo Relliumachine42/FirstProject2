@@ -35,7 +35,7 @@ h1 {
 }
 
 .smallText {
-    font-size: xx-small;
+    font-size: x-small;
 }
 
 .special-link {
@@ -103,6 +103,14 @@ footer {
 
 .bgImage3 {
     background-image: url(/img/pickle4.png);
+    background-size:8cm;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+}
+
+.bgImage4 {
+    background-image: url(/img/pickle1.png);
     background-size:8cm;
     /* background-size: cover; */
     /* background-position: center; */
